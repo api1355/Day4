@@ -12,7 +12,7 @@ pipeline
       stage('Compile')
       {
         steps{
-          sh 'java Day4'
+          sh 'java src/Day4'
         }
       }
   }
