@@ -32,5 +32,7 @@ public class Day4 {
 		{
 			System.out.println("Exception Occured: File not found!");
 		}
+		
+		System.out.println("Checking");
 	}
 }
