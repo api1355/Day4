@@ -6,13 +6,13 @@ pipeline
       stage('Build')
       {
         steps{
-          sh 'javac src/Day4.java'
+          bat 'javac src/Day4.java'
         }
       }
       stage('Compile')
       {
         steps{
-          sh 'java src/Day4.java'
+          bat 'java src/Day4.java'
         }
       }
   }
